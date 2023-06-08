@@ -81,10 +81,6 @@
       <Project>{09efba09-b2d1-484f-b3a7-d3ea178e9ba3}</Project>
       <Name>TShop.Commom</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TShop.Data\TShop.Data.csproj">
-      <Project>{05575437-e727-4597-8f6a-8e0f17d01107}</Project>
-      <Name>TShop.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
